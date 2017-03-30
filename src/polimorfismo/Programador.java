@@ -19,4 +19,8 @@ public class Programador extends Empleado{
     public double calcularSalario(){
         return 6000000;
     }
+    @Override
+    public String getProfecion(){
+        return "Programador";
+    }
 }

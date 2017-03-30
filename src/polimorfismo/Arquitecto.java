@@ -19,5 +19,9 @@ public class Arquitecto extends Empleado {
     public double calcularSalario(){
         return 3500000;
     }
+    @Override
+    public String getProfecion(){
+        return "Arquitecto";
+    }
     
 }

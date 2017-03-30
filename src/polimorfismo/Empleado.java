@@ -24,7 +24,9 @@ public class Empleado {
     public String getName() {
         return name;
     }
-
+    public String getProfecion(){
+        return "";
+    }
     
     
 }
